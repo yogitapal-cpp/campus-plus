@@ -1,0 +1,32 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@layer base {
+  :root {
+    --bg-main: #F3EAF2;
+    --text-plum: #30243D;
+    --primary-purple: #59416D;
+    --dusty-lilac: #C99ACB;
+    --dusty-rose: #D99AB7;
+    --muted-blue: #8FA8D8;
+    --border-soft: #E3D5E2;
+  }
+
+  body {
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+    color: #30243D;
+    background-color: #F3EAF2;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  ::selection {
+    background-color: #EBD4E1;
+    color: #30243D;
+  }
+  
+  .font-mono, tabular-nums {
+    font-family: 'JetBrains Mono', monospace;
+  }
+}

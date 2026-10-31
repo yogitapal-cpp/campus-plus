@@ -1,0 +1,6 @@
+{
+  "name": "Campus Pulse",
+  "description": "An AI-powered campus companion that transforms college announcements into organized events, smart reminders, and personalized campus updates.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
